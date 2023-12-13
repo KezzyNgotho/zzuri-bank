@@ -21,6 +21,7 @@ import DepositScreen from "../Screens/DepositScreen";
 import RechargeScreen from "../Screens/RegarcheScreen";
 import TransferScreen from "../Screens/TransferScreen";
 import UserProfileScreen from "../Screens/UserProfileScreen";
+import AccountsScreen from "../Screens/AccountsScreens";
 const Stack = createNativeStackNavigator();
 
 const MainStackNavigator = () => {
@@ -48,7 +49,7 @@ const MainStackNavigator = () => {
       <Stack.Screen options={{ headerShown: false }} name="Recharge" component={RechargeScreen} />
       <Stack.Screen options={{ headerShown: false }} name="Transfer" component={TransferScreen} />
       <Stack.Screen options={{ headerShown: false }} name="User" component={UserProfileScreen} />
-      
+      <Stack.Screen options={{ headerShown: false }} name="Accounts" component={AccountsScreen} />
     </Stack.Navigator>
   );
 }

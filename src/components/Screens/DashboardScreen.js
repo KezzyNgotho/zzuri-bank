@@ -346,7 +346,7 @@ const toggleBalanceVisibility = (index) => {
       {/* Placeholder for the third item in Row 2 */}
       <TouchableOpacity
         style={styles.serviceItem}
-        onPress={() => navigation.navigate('Support')}>
+        onPress={() => navigation.navigate('Accounts')}>
         <Image source={require('../assets/otheraccount.png')} style={styles.serviceIcon} />
         <Text style={styles.serviceText}>To Other Account</Text>
       </TouchableOpacity>
